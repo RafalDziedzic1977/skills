@@ -177,6 +177,60 @@ Use contagious and one-page-marketing skills.
 
 ---
 
+### Validate Your Idea With Honest Customer Conversations
+
+> You've been pitching your idea in meetings and everyone says "that's a great idea!" but nobody's buying.
+
+**Prompt:**
+
+```
+I've talked to 20 potential customers about my project
+management tool for construction teams. They all said
+they'd use it. But when I launched a landing page,
+only 2 signed up.
+
+Review my interview approach using Mom Test rules:
+- Am I talking about their life or pitching my idea?
+- Am I asking about specifics in the past or hypotheticals?
+- Am I deflecting compliments and digging into real behavior?
+
+Then rewrite my 5 key interview questions so they extract
+signal without leading the witness.
+
+Use mom-test skill.
+```
+
+**Skills used:** mom-test
+
+---
+
+### Build a Discovery Practice From Day One
+
+> You're pre-revenue and talking to users sporadically — some weeks a lot, some weeks not at all.
+
+**Prompt:**
+
+```
+I'm a solo founder building an expense-tracking app
+for freelancers. I talk to users when I remember to,
+but there's no system.
+
+Help me set up a sustainable weekly discovery cadence:
+(1) Build an Opportunity Solution Tree with my desired
+    outcome at the top, opportunities in the middle,
+    and solution ideas at the bottom
+(2) Design a 20-minute interview snapshot template
+    I can use in 2 calls per week
+(3) Show me how to run Mom Test-compliant questions
+    within that snapshot format
+
+Use continuous-discovery and mom-test skills.
+```
+
+**Skills used:** continuous-discovery, mom-test
+
+---
+
 ## Product Managers (Scale-Up)
 
 You're past product-market fit and focused on retention, feature prioritization, team alignment, and competitive moats.
@@ -360,6 +414,120 @@ Use improve-retention and contagious skills.
 ```
 
 **Skills used:** improve-retention, contagious
+
+---
+
+### Transition From Feature Factory to Empowered Teams
+
+> Your team ships whatever stakeholders request, but nobody measures outcomes and morale is dropping.
+
+**Prompt:**
+
+```
+Our product team is a feature factory — we take requests
+from sales and executives, build them, and move on.
+Nobody tracks whether features actually move metrics.
+
+Help me design a transition plan:
+(1) Assess our current team against Cagan's empowered team
+    model — do we have a product manager, designer,
+    and engineers with decision-making authority?
+(2) Create an opportunity assessment template for the next
+    3 feature requests in our backlog
+(3) Draft a product vision statement that gives the team
+    strategic context to make their own prioritization decisions
+
+Use inspired-product skill.
+```
+
+**Skills used:** inspired-product
+
+---
+
+### Build a Weekly Discovery Cadence
+
+> You do user research in big batches before major releases but lose touch with customers in between.
+
+**Prompt:**
+
+```
+We do a big research sprint every quarter but go weeks
+without talking to a single customer in between.
+
+Set up a continuous discovery system:
+(1) Create an Opportunity Solution Tree for our Q3 goal
+    of reducing churn by 20%
+(2) Design an assumption map — what are our riskiest
+    assumptions and how do we test them cheaply?
+(3) Build a weekly interview snapshot template that
+    our PM can run in 2 customer calls per week
+
+Then show me how to integrate this with our 2-week
+sprint cycle using Lean UX hypothesis statements.
+
+Use continuous-discovery and lean-ux skills.
+```
+
+**Skills used:** continuous-discovery, lean-ux
+
+---
+
+### Design Hypothesis-Driven UX Experiments
+
+> Your team debates design decisions endlessly — you need a framework to test instead of argue.
+
+**Prompt:**
+
+```
+Our team spent 3 weeks debating whether to redesign
+our onboarding flow. We have two competing mockups
+and no data.
+
+Help me turn this into a Lean UX experiment:
+(1) Write a hypothesis statement: "We believe that
+    [change] for [users] will achieve [outcome]
+    as measured by [metric]"
+(2) Design the smallest possible MVP to test it
+    (not a full redesign)
+(3) Define success criteria and a timeline
+
+Then show me how to run a collaborative design studio
+so both sides feel heard before we test.
+
+Use lean-ux skill.
+```
+
+**Skills used:** lean-ux
+
+---
+
+### Add Micro-Interaction Polish That Delights Users
+
+> Users say your app "works fine" but nobody describes it as "delightful" or recommends it to friends.
+
+**Prompt:**
+
+```
+Our task management app is functional but feels flat.
+Users complete tasks but never say "I love this product."
+
+Audit these 5 key interactions for micro-interaction
+opportunities:
+- Completing a task (checkbox)
+- Adding a new item
+- Switching between views
+- Receiving a notification
+- Reaching inbox zero
+
+For each, design the micro-interaction using
+Trigger → Rules → Feedback → Loops/Modes.
+What feedback makes the action feel satisfying?
+What loop keeps them coming back?
+
+Use microinteractions skill.
+```
+
+**Skills used:** microinteractions
 
 ---
 
@@ -712,6 +880,63 @@ Use ios-hig-design and ux-heuristics skills.
 ```
 
 **Skills used:** ios-hig-design, ux-heuristics
+
+---
+
+### Design Micro-Interactions for a Checkout Flow
+
+> Your checkout flow is functional but feels mechanical — users hesitate at the payment step.
+
+**Prompt:**
+
+```
+Here's our 4-step checkout flow:
+Cart → Shipping → Payment → Confirmation.
+Conversion drops 30% at the Payment step.
+
+Design micro-interactions that build confidence
+and reduce hesitation:
+
+For each step, specify:
+- Trigger: what initiates the interaction?
+- Rules: what happens and what are the edge cases?
+- Feedback: how does the user know it worked?
+- Loops: does anything change on repeat visits?
+
+Pay special attention to the payment button —
+what feedback happens between click and confirmation?
+
+Use microinteractions and ux-heuristics skills.
+```
+
+**Skills used:** microinteractions, ux-heuristics
+
+---
+
+### Run a Lean UX Experiment Instead of a Redesign
+
+> Stakeholders want a complete redesign, but you suspect targeted changes would be more effective.
+
+**Prompt:**
+
+```
+Leadership wants a full redesign of our dashboard.
+I think 80% of it works fine and we should only fix
+the broken parts.
+
+Help me make the case with a Lean UX approach:
+(1) Identify assumptions behind the "full redesign" plan
+(2) Write 3 hypothesis statements for targeted experiments
+    we can run in 2 weeks instead of 3 months
+(3) Design a minimum viable experiment for the riskiest
+    hypothesis
+(4) Define success metrics that prove whether the targeted
+    approach works before committing to a full redesign
+
+Use lean-ux and ux-heuristics skills.
+```
+
+**Skills used:** lean-ux, ux-heuristics
 
 ---
 
@@ -1269,6 +1494,382 @@ Use crossing-the-chasm and blue-ocean-strategy skills.
 
 ---
 
+## Software Engineers
+
+You write code every day — feature work, bug fixes, refactoring, and reviews. These scenarios help you write cleaner, more maintainable software.
+
+### Review Code for Readability
+
+> A teammate submitted a 400-line pull request and you want to give useful feedback beyond "looks fine."
+
+**Prompt:**
+
+```
+Here's a module from our codebase: [paste code or file path].
+
+Review it using Clean Code principles:
+- Are the names meaningful and intention-revealing?
+- Are functions small and doing one thing?
+- Are there comments that should be code instead?
+- Is error handling clean (no swallowed exceptions,
+  no returning null)?
+
+Score it 0-10 and list the top 5 improvements
+in priority order.
+
+Use clean-code skill.
+```
+
+**Skills used:** clean-code
+
+---
+
+### Refactor a Messy Function Step by Step
+
+> You need to add a feature to a 200-line function but you're afraid to touch it because it's fragile.
+
+**Prompt:**
+
+```
+Here's a function I need to modify: [paste code].
+
+It's too long, has nested conditionals, and no tests.
+Before I add my feature, help me refactor it safely:
+
+(1) Identify the code smells (Long Method, Feature Envy,
+    Divergent Change, etc.)
+(2) Suggest a sequence of named refactoring transformations
+    (Extract Method, Replace Conditional with Polymorphism, etc.)
+(3) Tell me which tests to write BEFORE each transformation
+    so I don't break anything
+
+Apply the transformations one at a time.
+
+Use refactoring-patterns skill.
+```
+
+**Skills used:** refactoring-patterns
+
+---
+
+### Simplify an Over-Engineered Module
+
+> You inherited a module with 15 tiny classes, 8 interfaces, and 3 levels of abstraction for what should be a simple feature.
+
+**Prompt:**
+
+```
+Here's a module that handles user notifications:
+[paste code or describe structure].
+
+It has too many layers and abstractions for what it does.
+Analyze it using A Philosophy of Software Design:
+- Which classes are "shallow" (complex interface,
+  simple implementation)?
+- Where is information leaking between modules?
+- Are we programming "tactically" (quick hacks)
+  or "strategically" (managing complexity)?
+
+Recommend how to consolidate into deeper modules
+with simpler interfaces.
+
+Use software-design-philosophy skill.
+```
+
+**Skills used:** software-design-philosophy
+
+---
+
+### Apply Pragmatic Best Practices to a New Project
+
+> You're starting a greenfield project and want to set up good habits from the start.
+
+**Prompt:**
+
+```
+I'm starting a new backend service in [language/framework].
+Before I write code, help me apply pragmatic principles:
+
+- What's my "tracer bullet" — the thinnest possible
+  end-to-end slice I should build first?
+- How do I keep the architecture orthogonal so changing
+  one thing doesn't break another?
+- Where should I apply DRY and where should I tolerate
+  duplication (hint: across service boundaries)?
+- What reversibility decisions should I make now
+  vs. defer?
+
+Give me a project setup checklist.
+
+Use pragmatic-programmer skill.
+```
+
+**Skills used:** pragmatic-programmer
+
+---
+
+### Model a Business Domain Before Writing Code
+
+> You're building an e-commerce system and every meeting uses different terms for the same concepts.
+
+**Prompt:**
+
+```
+We're building an order management system and the team
+uses "order," "purchase," "transaction," and "booking"
+interchangeably. Checkout, warehouse, and billing
+each have different assumptions about what an "order" is.
+
+Help me apply DDD:
+(1) Define the Ubiquitous Language — one glossary
+    the whole team agrees on
+(2) Identify Bounded Contexts — where do the meanings
+    of "order" legitimately differ?
+(3) Design the Aggregates for the checkout context —
+    what's the aggregate root and what are the invariants?
+(4) Map the relationships between contexts
+    (shared kernel, customer-supplier, anti-corruption layer)
+
+Use domain-driven-design skill.
+```
+
+**Skills used:** domain-driven-design
+
+---
+
+### Choose the Right Database for Your Use Case
+
+> You're designing a new service and defaulting to PostgreSQL because "that's what we always use."
+
+**Prompt:**
+
+```
+We're building a service that handles:
+- User profiles (relational, read-heavy)
+- Activity feeds (time-series, write-heavy)
+- Product recommendations (graph relationships)
+- Full-text search across 10M documents
+
+Should we use one database or multiple?
+
+For each workload, evaluate:
+- Which data model fits best (relational, document, graph)?
+- What storage engine characteristics matter
+  (B-tree vs LSM tree)?
+- What replication and partitioning strategy
+  do we need at our scale?
+- What consistency level is required?
+
+Use ddia-systems skill.
+```
+
+**Skills used:** ddia-systems
+
+---
+
+### Optimize a Slow Web Application
+
+> Your web app takes 6 seconds to load and Core Web Vitals are all red.
+
+**Prompt:**
+
+```
+Our web app scores 35 on Lighthouse. LCP is 5.2s,
+INP is 380ms, and CLS is 0.42.
+
+Run a systematic performance diagnosis:
+(1) Network: are we making too many round trips?
+    Should we add preconnect, preload, or HTTP/2?
+(2) Critical rendering path: what's blocking first paint?
+    Which scripts should be deferred?
+(3) Caching: are static assets properly cached
+    with content hashes?
+(4) Core Web Vitals: what specific changes will bring
+    LCP under 2.5s, INP under 200ms, and CLS under 0.1?
+
+Prioritize fixes by impact.
+
+Use high-perf-browser skill.
+```
+
+**Skills used:** high-perf-browser
+
+---
+
+## Tech Leads & Architects
+
+You design systems, review architecture, mentor engineers, and make decisions that are expensive to reverse.
+
+### Design a URL Shortener From Scratch
+
+> You need to design a system that handles 100M URLs and 10K redirects/second.
+
+**Prompt:**
+
+```
+Design a URL shortener that supports:
+- 100M stored URLs
+- 10K reads/second, 100 writes/second
+- Custom aliases
+- Analytics (click counts, referrer, location)
+
+Walk me through the structured approach:
+(1) Back-of-the-envelope estimation: storage, bandwidth,
+    QPS, cache sizing
+(2) High-level design: API, database schema, encoding strategy
+(3) Deep dive: how to generate unique short codes,
+    handle collisions, and scale reads with caching
+(4) Bottleneck analysis: what breaks first at 10x load?
+
+Use system-design skill.
+```
+
+**Skills used:** system-design
+
+---
+
+### Prepare a Service for Production Launch
+
+> You're about to launch a new service and the last launch caused a 2-hour outage.
+
+**Prompt:**
+
+```
+We're launching a new payment processing service next week.
+Our last launch took down the checkout for 2 hours.
+
+Audit our production readiness:
+(1) Stability: do we have circuit breakers, timeouts,
+    and bulkheads on every integration point?
+(2) Deployment: can we deploy with zero downtime
+    and roll back in under 60 seconds?
+(3) Observability: do our health checks verify
+    dependency connectivity? Are we alerting on
+    symptoms (error rate) not causes (CPU)?
+(4) Capacity: have we load tested to 3x expected peak?
+
+Give me a pre-launch checklist with pass/fail criteria.
+
+Use release-it skill.
+```
+
+**Skills used:** release-it
+
+---
+
+### Structure a Growing Codebase With Clean Boundaries
+
+> Your monolith is becoming a big ball of mud — everything depends on everything.
+
+**Prompt:**
+
+```
+Our Node.js monolith has grown to 200 files and we can't
+change the payment logic without breaking the notification
+system. Everything imports everything.
+
+Help me restructure using Clean Architecture:
+(1) Draw the dependency graph — where are the violations
+    of the Dependency Rule?
+(2) Identify Entities (business rules), Use Cases
+    (application rules), and Adapters (HTTP, DB)
+(3) Define component boundaries using the Component
+    Cohesion principles (CCP, CRP)
+(4) Show me how to refactor one module as a template
+    for the rest
+
+Use clean-architecture skill.
+```
+
+**Skills used:** clean-architecture
+
+---
+
+### Design a Data Pipeline for Real-Time Analytics
+
+> You need to process 50K events/second and serve dashboard queries with sub-second latency.
+
+**Prompt:**
+
+```
+We receive 50K clickstream events/second and need to:
+- Store raw events for replay
+- Compute real-time aggregations (clicks per page per minute)
+- Serve dashboard queries with sub-second latency
+- Handle late-arriving events gracefully
+
+Design the pipeline:
+(1) Should we use batch, stream, or Lambda architecture?
+(2) What's the right partitioning strategy for the event store?
+(3) How do we handle exactly-once processing?
+(4) What storage engine serves the dashboard queries fastest?
+
+Use ddia-systems and system-design skills.
+```
+
+**Skills used:** ddia-systems, system-design
+
+---
+
+### Add Resilience Patterns to Microservices
+
+> Your microservices work fine in dev but cascade failures in production under load.
+
+**Prompt:**
+
+```
+We have 8 microservices. When the recommendation service
+slows down, it causes timeouts that cascade through
+checkout, cart, and the API gateway. Last week this
+took down the whole site for 45 minutes.
+
+Design a resilience strategy:
+(1) Add circuit breakers: what thresholds and recovery
+    timeouts for each service-to-service call?
+(2) Add bulkheads: how should we isolate thread/connection
+    pools so one failure can't drain the system?
+(3) Design a retry strategy with exponential backoff
+    and jitter that won't create a thundering herd
+(4) Plan a chaos engineering experiment to verify
+    these patterns work
+
+Use release-it and pragmatic-programmer skills.
+```
+
+**Skills used:** release-it, pragmatic-programmer
+
+---
+
+### Review Architecture for Domain Alignment
+
+> Your services are organized by technical layer instead of business capability, and cross-team changes take weeks.
+
+**Prompt:**
+
+```
+Our backend is split into: api-gateway, auth-service,
+data-service, notification-service, and worker-service.
+Every feature requires changes to 3-4 services and
+coordination across 2 teams. Something is wrong
+with our boundaries.
+
+Help me redesign:
+(1) Identify the bounded contexts in our domain
+    (what are the natural business boundaries?)
+(2) Check if our current services respect the
+    Dependency Rule — or are they a distributed monolith?
+(3) Propose a new service decomposition aligned
+    with domain boundaries
+(4) Design anti-corruption layers between contexts
+    that need to communicate
+
+Use domain-driven-design and clean-architecture skills.
+```
+
+**Skills used:** domain-driven-design, clean-architecture
+
+---
+
 ## Skill Index
 
 Quick reference showing where each skill appears in the examples above.
@@ -1276,6 +1877,7 @@ Quick reference showing where each skill appears in the examples above.
 | Skill | Appears In |
 |-------|-----------|
 | jobs-to-be-done | Startup Founders, Product Managers |
+| mom-test | Startup Founders (x2) |
 | cro-methodology | Online Marketers (x3) |
 | refactoring-ui | UX/UI Designers (x2), Solopreneurs |
 | ios-hig-design | UX/UI Designers (x2) |
@@ -1283,13 +1885,17 @@ Quick reference showing where each skill appears in the examples above.
 | storybrand-messaging | Online Marketers, Sales Leaders, Content Creators (x2) |
 | hooked-ux | Product Managers (x2), UX/UI Designers |
 | improve-retention | Product Managers (x3), UX/UI Designers, Solopreneurs |
-| ux-heuristics | UX/UI Designers (x2) |
+| ux-heuristics | UX/UI Designers (x4) |
 | web-typography | UX/UI Designers, Solopreneurs |
 | top-design | UX/UI Designers |
+| microinteractions | Product Managers, UX/UI Designers |
 | negotiation | Sales Leaders (x2) |
 | influence-psychology | Online Marketers (x2), Sales Leaders, Content Creators (x2) |
 | lean-startup | Startup Founders |
 | design-sprint | Startup Founders |
+| inspired-product | Product Managers |
+| continuous-discovery | Startup Founders, Product Managers |
+| lean-ux | Product Managers, UX/UI Designers |
 | crossing-the-chasm | Startup Founders, Sales Leaders, Solopreneurs |
 | blue-ocean-strategy | Startup Founders, Solopreneurs |
 | traction-eos | Product Managers (x2) |
@@ -1301,3 +1907,13 @@ Quick reference showing where each skill appears in the examples above.
 | obviously-awesome | Startup Founders, Product Managers, Solopreneurs |
 | contagious | Startup Founders, Product Managers, Online Marketers, Content Creators (x2) |
 | one-page-marketing | Startup Founders, Online Marketers (x2), Content Creators, Solopreneurs |
+| clean-code | Software Engineers |
+| refactoring-patterns | Software Engineers |
+| software-design-philosophy | Software Engineers |
+| pragmatic-programmer | Software Engineers, Tech Leads |
+| domain-driven-design | Software Engineers, Tech Leads |
+| ddia-systems | Software Engineers, Tech Leads |
+| system-design | Tech Leads |
+| clean-architecture | Tech Leads (x2) |
+| release-it | Tech Leads (x2) |
+| high-perf-browser | Software Engineers |
