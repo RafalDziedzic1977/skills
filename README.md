@@ -11,13 +11,15 @@ Agent skills for Claude Code and agentskills.io-compatible agents.
 /plugin marketplace add wondelai/skills
 
 # Install plugin collections
-/plugin install product-strategy@wondelai-skills    # Jobs to Be Done, Negotiation
-/plugin install ux-design@wondelai-skills           # Refactoring UI, iOS HIG, UX Heuristics, Hooked, Improve Retention, Web Typography, Top Design, Design of Everyday Things
-/plugin install marketing-cro@wondelai-skills       # CRO Methodology, StoryBrand, Scorecard Marketing
-/plugin install sales-influence@wondelai-skills     # Influence Psychology, Predictable Revenue, Made to Stick
-/plugin install product-innovation@wondelai-skills  # Lean Startup, Design Sprint, Design of Everyday Things
-/plugin install strategy-growth@wondelai-skills     # Crossing the Chasm, Blue Ocean Strategy, Traction/EOS
-/plugin install team-motivation@wondelai-skills     # Drive (Autonomy, Mastery, Purpose)
+/plugin install product-strategy@wondelai-skills      # Jobs to Be Done, Negotiation, Mom Test
+/plugin install ux-design@wondelai-skills             # Refactoring UI, iOS HIG, UX Heuristics, Hooked, Improve Retention, Web Typography, Top Design, Design of Everyday Things, Lean UX, Microinteractions
+/plugin install marketing-cro@wondelai-skills         # CRO Methodology, StoryBrand, Scorecard Marketing, Contagious, 1-Page Marketing
+/plugin install sales-influence@wondelai-skills       # Influence Psychology, Predictable Revenue, Made to Stick, $100M Offers
+/plugin install product-innovation@wondelai-skills    # Lean Startup, Design Sprint, Design of Everyday Things, Inspired, Continuous Discovery
+/plugin install strategy-growth@wondelai-skills       # Crossing the Chasm, Blue Ocean Strategy, Traction/EOS, Obviously Awesome
+/plugin install team-motivation@wondelai-skills       # Drive (Autonomy, Mastery, Purpose)
+/plugin install code-craftsmanship@wondelai-skills    # Clean Code, Refactoring Patterns, Software Design Philosophy, Pragmatic Programmer, DDD
+/plugin install systems-architecture@wondelai-skills  # DDIA, System Design, Clean Architecture, Release It!, High Performance Browser Networking
 ```
 
 ### Via skills.sh
@@ -55,6 +57,21 @@ npx skills add wondelai/skills/hundred-million-offers
 npx skills add wondelai/skills/obviously-awesome
 npx skills add wondelai/skills/contagious
 npx skills add wondelai/skills/one-page-marketing
+npx skills add wondelai/skills/mom-test
+npx skills add wondelai/skills/inspired-product
+npx skills add wondelai/skills/lean-ux
+npx skills add wondelai/skills/continuous-discovery
+npx skills add wondelai/skills/microinteractions
+npx skills add wondelai/skills/clean-code
+npx skills add wondelai/skills/refactoring-patterns
+npx skills add wondelai/skills/software-design-philosophy
+npx skills add wondelai/skills/pragmatic-programmer
+npx skills add wondelai/skills/domain-driven-design
+npx skills add wondelai/skills/ddia-systems
+npx skills add wondelai/skills/system-design
+npx skills add wondelai/skills/clean-architecture
+npx skills add wondelai/skills/release-it
+npx skills add wondelai/skills/high-perf-browser
 ```
 
 ## Available Skills
@@ -87,6 +104,21 @@ npx skills add wondelai/skills/one-page-marketing
 | obviously-awesome | Product positioning: competitive alternatives, unique value, target customers, market category | [April Dunford](https://x.com/aprildunford)'s [*"Obviously Awesome"*](https://www.amazon.com/Obviously-Awesome-Product-Positioning-Customers/dp/1999023005?tag=wondelai00-20) |
 | contagious | Word-of-mouth and virality using the STEPPS framework | [Jonah Berger](https://x.com/j1berger)'s [*"Contagious"*](https://www.amazon.com/Contagious-Things-Catch-Jonah-Berger/dp/1451686587?tag=wondelai00-20) |
 | one-page-marketing | End-to-end marketing plan: 9-square grid from prospect to raving fan | [Allan Dib](https://x.com/successwise)'s [*"The 1-Page Marketing Plan"*](https://www.amazon.com/1-Page-Marketing-Plan-Customers-Money/dp/1989025013?tag=wondelai00-20) |
+| mom-test | Customer interview framework: talk about their life, not your idea | [Rob Fitzpatrick](https://x.com/robfitz)'s [*"The Mom Test"*](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742?tag=wondelai00-20) |
+| inspired-product | Empowered product teams with discovery and delivery dual-track | [Marty Cagan](https://x.com/caborez)'s [*"Inspired"*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507?tag=wondelai00-20) |
+| lean-ux | Hypothesis-driven UX design with rapid experiments | [Jeff Gothelf](https://x.com/jboogie)'s [*"Lean UX"*](https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1098116305?tag=wondelai00-20) |
+| continuous-discovery | Weekly customer touchpoints using Opportunity Solution Trees | [Teresa Torres](https://x.com/ttorres)'s [*"Continuous Discovery Habits"*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309?tag=wondelai00-20) |
+| microinteractions | Design triggers, rules, feedback, loops and modes for interaction polish | [Dan Saffer](https://x.com/odannyboy)'s [*"Microinteractions"*](https://www.amazon.com/Microinteractions-Full-Color-Designing-Details/dp/1491945923?tag=wondelai00-20) |
+| clean-code | Readable, maintainable code through naming, small functions, and clean error handling | [Robert C. Martin](https://x.com/unclebobmartin)'s [*"Clean Code"*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882?tag=wondelai00-20) |
+| refactoring-patterns | Named refactoring transformations to improve code structure safely | [Martin Fowler](https://x.com/martinfowler)'s [*"Refactoring"*](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599?tag=wondelai00-20) |
+| software-design-philosophy | Managing complexity through deep modules and information hiding | [John Ousterhout](https://x.com/JohnOusterhout)'s [*"A Philosophy of Software Design"*](https://www.amazon.com/Philosophy-Software-Design-2nd/dp/173210221X?tag=wondelai00-20) |
+| pragmatic-programmer | Meta-principles: DRY, orthogonality, tracer bullets, design by contract | [Andrew Hunt](https://x.com/pragmaticandy) & David Thomas's [*"The Pragmatic Programmer"*](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052?tag=wondelai00-20) |
+| domain-driven-design | Model software around business domains with bounded contexts and aggregates | [Eric Evans](https://x.com/ericevans0)'s [*"Domain-Driven Design"*](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215?tag=wondelai00-20) |
+| ddia-systems | Data system design: storage engines, replication, partitioning, consistency | [Martin Kleppmann](https://x.com/martinkl)'s [*"Designing Data-Intensive Applications"*](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321?tag=wondelai00-20) |
+| system-design | Scalable distributed systems: load balancing, caching, database scaling | [Alex Xu](https://x.com/aleaborysov)'s [*"System Design Interview"*](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF?tag=wondelai00-20) |
+| clean-architecture | The Dependency Rule: dependencies point inward from frameworks to entities | [Robert C. Martin](https://x.com/unclebobmartin)'s [*"Clean Architecture"*](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164?tag=wondelai00-20) |
+| release-it | Production-ready systems: circuit breakers, bulkheads, timeouts, retry logic | [Michael Nygard](https://x.com/mtnygard)'s [*"Release It!"*](https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395?tag=wondelai00-20) |
+| high-perf-browser | Web performance: network protocols, resource loading, browser rendering | [Ilya Grigorik](https://x.com/igrigorik)'s [*"High Performance Browser Networking"*](https://www.amazon.com/High-Performance-Browser-Networking-performance/dp/1449344763?tag=wondelai00-20) |
 
 > **Looking for real-world scenarios?** See [EXAMPLES.md](EXAMPLES.md) for 49 copy-pasteable prompts organized by persona (founders, PMs, marketers, designers, sales, copywriters, solopreneurs).
 
@@ -703,6 +735,306 @@ Complete end-to-end marketing plan on a single page using Allan Dib's 9-square g
 
 ---
 
+### mom-test
+
+Customer interview framework that teaches you to talk about customers' lives instead of your idea. The three rules: talk about their life not your idea, ask about specifics in the past, and talk less.
+
+**About the author:** [Rob Fitzpatrick](https://x.com/robfitz) is an entrepreneur, author, and educator. [*"The Mom Test"*](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742?tag=wondelai00-20) has become the go-to guide for customer development conversations and is used by accelerators, VCs, and startup programs worldwide.
+
+**Use when you need to:**
+- Write customer interview questions that don't lead
+- Validate a business idea without pitching
+- Identify if users are giving you compliments instead of commitments
+- Process and share learnings from customer conversations
+- Distinguish real demand from polite encouragement
+
+**Example prompts:**
+- *"Help me write interview questions for our B2B SaaS idea without leading the witness. Use mom-test skill."*
+- *"I keep hearing 'that's a great idea' but nobody buys. Diagnose my conversations. Use mom-test skill."*
+- *"What commitment should I ask for at the end of this customer call? Use mom-test skill."*
+
+---
+
+### inspired-product
+
+Build empowered product teams using discovery and delivery dual-track. Replace feature factories with teams that discover solutions customers love, that work for the business.
+
+**About the author:** [Marty Cagan](https://x.com/caborez) is the founder of Silicon Valley Product Group (SVPG) and a former product executive at eBay, Netscape, and HP. [*"Inspired"*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507?tag=wondelai00-20) is considered essential reading for product managers worldwide.
+
+**Use when you need to:**
+- Structure empowered product teams (PM, designer, engineers)
+- Run product discovery to reduce risk before building
+- Create compelling product vision and strategy
+- Manage stakeholders without surrendering team empowerment
+- Assess product opportunities systematically
+
+**Example prompts:**
+- *"Are we a feature factory? Diagnose our product team structure. Use inspired-product skill."*
+- *"Create an opportunity assessment for this new feature idea. Use inspired-product skill."*
+- *"Help me write a product vision for our B2B platform. Use inspired-product skill."*
+
+---
+
+### lean-ux
+
+Hypothesis-driven UX design that replaces heavy deliverables with rapid experiments and collaborative sketching. Outcomes over outputs.
+
+**About the authors:** [Jeff Gothelf](https://x.com/jboogie) and [Josh Seiden](https://x.com/jseiden) are consultants and coaches specializing in Lean and Agile product development. [*"Lean UX"*](https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1098116305?tag=wondelai00-20) bridges Lean Startup, design thinking, and Agile development.
+
+**Use when you need to:**
+- Write UX hypothesis statements
+- Design minimum viable experiments for UX ideas
+- Integrate UX work into Agile sprints
+- Run collaborative design sessions with cross-functional teams
+- Measure UX outcomes instead of outputs
+
+**Example prompts:**
+- *"Write a hypothesis statement for our new onboarding flow. Use lean-ux skill."*
+- *"What's the minimum viable experiment to test this design idea? Use lean-ux skill."*
+- *"How do I fit UX discovery into our 2-week sprints? Use lean-ux skill."*
+
+---
+
+### continuous-discovery
+
+Build a weekly cadence of customer touchpoints using Opportunity Solution Trees, assumption mapping, and interview snapshots.
+
+**About the author:** [Teresa Torres](https://x.com/ttorres) is an internationally acclaimed author, speaker, and coach who helps product teams adopt continuous discovery practices. [*"Continuous Discovery Habits"*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309?tag=wondelai00-20) is the definitive guide to making discovery a regular team habit.
+
+**Use when you need to:**
+- Build an Opportunity Solution Tree for your product
+- Create a weekly interview cadence
+- Map and prioritize assumptions by risk
+- Synthesize customer interviews into actionable insights
+- Prioritize which opportunities to pursue
+
+**Example prompts:**
+- *"Help me build an Opportunity Solution Tree for our retention OKR. Use continuous-discovery skill."*
+- *"How do I set up a weekly interview cadence with limited resources? Use continuous-discovery skill."*
+- *"Map our riskiest assumptions for this feature. Use continuous-discovery skill."*
+
+---
+
+### microinteractions
+
+Design the small details — triggers, rules, feedback, loops and modes — that separate good products from great ones.
+
+**About the author:** [Dan Saffer](https://x.com/odannyboy) is a product designer and author who has worked at Smart Design, Motorola, and Twitter. [*"Microinteractions"*](https://www.amazon.com/Microinteractions-Full-Color-Designing-Details/dp/1491945923?tag=wondelai00-20) focuses on the tiny, crucial design details that make products delightful.
+
+**Use when you need to:**
+- Design button feedback, loading states, or toggle interactions
+- Create signature moments that define brand identity
+- Audit interactions for missing feedback or unclear states
+- Design progressive loops that evolve over time
+- Reduce and simplify complex interactions
+
+**Example prompts:**
+- *"Design the microinteraction for our save button — trigger, rules, feedback, and loop. Use microinteractions skill."*
+- *"Audit this form submission flow for missing feedback. Use microinteractions skill."*
+- *"Create a signature loading animation that reflects our brand. Use microinteractions skill."*
+
+---
+
+### clean-code
+
+Write readable, maintainable code through disciplined naming, small functions, and clean error handling. Code is read far more than it is written.
+
+**About the author:** [Robert C. Martin](https://x.com/unclebobmartin) (Uncle Bob) is a software engineer, author, and one of the signatories of the Agile Manifesto. [*"Clean Code"*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882?tag=wondelai00-20) has become the standard reference for code quality and craftsmanship.
+
+**Use when you need to:**
+- Review code for naming, function size, and readability
+- Identify and fix code smells
+- Write clean error handling
+- Apply the Single Responsibility Principle
+- Write clean, readable unit tests
+
+**Example prompts:**
+- *"Review this function for clean code principles. Use clean-code skill."*
+- *"This class has 500 lines. Help me identify the code smells. Use clean-code skill."*
+- *"Rewrite this error handling to follow clean code principles. Use clean-code skill."*
+
+---
+
+### refactoring-patterns
+
+Apply named refactoring transformations to improve code structure without changing behavior. Smell-driven, test-guarded, safe transformations.
+
+**About the author:** [Martin Fowler](https://x.com/martinfowler) is an author, speaker, and Chief Scientist at Thoughtworks. [*"Refactoring"*](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599?tag=wondelai00-20) (2nd edition) is the definitive catalog of refactoring techniques.
+
+**Use when you need to:**
+- Refactor code safely with named transformations
+- Identify code smells and choose the right refactoring
+- Simplify complex conditional logic
+- Extract methods, classes, or modules
+- Plan a safe refactoring workflow with tests
+
+**Example prompts:**
+- *"This method has nested conditionals. Which refactoring pattern should I apply? Use refactoring-patterns skill."*
+- *"Identify the code smells in this class and suggest refactorings. Use refactoring-patterns skill."*
+- *"Help me plan a safe refactoring sequence for this module. Use refactoring-patterns skill."*
+
+---
+
+### software-design-philosophy
+
+Manage software complexity through deep modules, information hiding, and strategic programming. Complexity is the root cause of most software problems.
+
+**About the author:** [John Ousterhout](https://x.com/JohnOusterhout) is a professor of computer science at Stanford University and creator of Tcl/Tk. [*"A Philosophy of Software Design"*](https://www.amazon.com/Philosophy-Software-Design-2nd/dp/173210221X?tag=wondelai00-20) distills decades of teaching and practice into actionable design principles.
+
+**Use when you need to:**
+- Evaluate whether a module is too shallow or deep
+- Detect and fix information leakage between modules
+- Choose between general-purpose and special-purpose interfaces
+- Write comments that serve as design documentation
+- Decide between strategic and tactical programming approaches
+
+**Example prompts:**
+- *"Is this class deep or shallow? Evaluate the interface-to-functionality ratio. Use software-design-philosophy skill."*
+- *"This API feels too complex. How do I simplify it? Use software-design-philosophy skill."*
+- *"Are we programming strategically or tactically? Audit our approach. Use software-design-philosophy skill."*
+
+---
+
+### pragmatic-programmer
+
+Meta-principles of software craftsmanship: DRY, orthogonality, tracer bullets, and design by contract. Think about your work as you work.
+
+**About the authors:** [Andrew Hunt](https://x.com/pragmaticandy) and **David Thomas** are co-founders of the Pragmatic Bookshelf and signatories of the Agile Manifesto. [*"The Pragmatic Programmer"*](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052?tag=wondelai00-20) (20th Anniversary Edition) remains one of the most influential software development books ever written.
+
+**Use when you need to:**
+- Apply DRY principle correctly (knowledge, not code)
+- Design orthogonal systems with minimal coupling
+- Choose between tracer bullets and prototypes
+- Apply design by contract and assertive programming
+- Estimate software projects with ranges
+
+**Example prompts:**
+- *"Is this duplication a DRY violation or coincidental? Use pragmatic-programmer skill."*
+- *"Should I build a tracer bullet or a prototype for this feature? Use pragmatic-programmer skill."*
+- *"How do I estimate this project? Use pragmatic-programmer skill."*
+
+---
+
+### domain-driven-design
+
+Model software around the business domain using bounded contexts, aggregates, and ubiquitous language. The structure of the code should reflect the structure of the domain.
+
+**About the author:** [Eric Evans](https://x.com/ericevans0) is a software design consultant and the originator of Domain-Driven Design. [*"Domain-Driven Design"*](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215?tag=wondelai00-20) fundamentally changed how the industry thinks about the relationship between code and business domains.
+
+**Use when you need to:**
+- Define bounded context boundaries for a system
+- Choose between entities, value objects, and aggregates
+- Build a ubiquitous language with domain experts
+- Design domain events for integration between contexts
+- Identify your core domain vs supporting subdomains
+
+**Example prompts:**
+- *"Help me define bounded contexts for our e-commerce platform. Use domain-driven-design skill."*
+- *"Should this be an entity or a value object? Use domain-driven-design skill."*
+- *"Design the aggregate boundaries for our order management system. Use domain-driven-design skill."*
+
+---
+
+### ddia-systems
+
+Design data systems by understanding storage engines, replication, partitioning, transactions, and consistency models. Fundamentals of data-intensive application design.
+
+**About the author:** [Martin Kleppmann](https://x.com/martinkl) is a researcher in distributed systems at the University of Cambridge. [*"Designing Data-Intensive Applications"*](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321?tag=wondelai00-20) is widely regarded as the best technical book on distributed data systems.
+
+**Use when you need to:**
+- Choose between database types (relational, document, graph)
+- Design replication and partitioning strategies
+- Understand consistency vs availability tradeoffs
+- Choose appropriate isolation levels for transactions
+- Design batch or stream processing pipelines
+
+**Example prompts:**
+- *"Should we use a relational or document database for this use case? Use ddia-systems skill."*
+- *"How should we partition this table? Use ddia-systems skill."*
+- *"What consistency guarantees do we need? Use ddia-systems skill."*
+
+---
+
+### system-design
+
+Design scalable distributed systems using structured approaches for load balancing, caching, database scaling, and message queues.
+
+**About the author:** [Alex Xu](https://x.com/aleaborysov) is the author of the bestselling System Design Interview series. [*"System Design Interview"*](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF?tag=wondelai00-20) (Volumes 1 & 2) has helped millions of engineers prepare for system design challenges.
+
+**Use when you need to:**
+- Design a system from requirements to architecture
+- Do back-of-the-envelope estimation for capacity
+- Choose the right caching strategy
+- Design common systems (URL shortener, rate limiter, chat, etc.)
+- Scale database reads and writes
+
+**Example prompts:**
+- *"Design a URL shortener service. Walk me through the four-step process. Use system-design skill."*
+- *"How many servers do we need to handle 10M daily active users? Use system-design skill."*
+- *"Design a rate limiter for our API. Use system-design skill."*
+
+---
+
+### clean-architecture
+
+Structure software around the Dependency Rule: source code dependencies point inward from frameworks to use cases to entities.
+
+**About the author:** [Robert C. Martin](https://x.com/unclebobmartin) (Uncle Bob) is a legendary software engineer and author of the Clean series. [*"Clean Architecture"*](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164?tag=wondelai00-20) provides the architectural counterpart to Clean Code.
+
+**Use when you need to:**
+- Structure an application with proper dependency direction
+- Separate business rules from frameworks and infrastructure
+- Apply SOLID principles at the architecture level
+- Design component boundaries and their interactions
+- Keep frameworks at arm's length
+
+**Example prompts:**
+- *"Review our architecture — do dependencies point inward? Use clean-architecture skill."*
+- *"How do I structure this app so the database is a detail, not a dependency? Use clean-architecture skill."*
+- *"Apply the Dependency Rule to our microservice. Use clean-architecture skill."*
+
+---
+
+### release-it
+
+Build production-ready systems with stability patterns: circuit breakers, bulkheads, timeouts, and retry logic. Design for the real world.
+
+**About the author:** [Michael Nygard](https://x.com/mtnygard) is an architect and author who has designed and operated some of the largest transactional systems in the world. [*"Release It!"*](https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395?tag=wondelai00-20) (2nd edition) is the definitive guide to building production-ready software.
+
+**Use when you need to:**
+- Diagnose cascading failure patterns
+- Implement circuit breakers, bulkheads, or timeouts
+- Plan capacity and availability
+- Choose deployment strategies (blue-green, canary, rolling)
+- Design health checks and observability
+
+**Example prompts:**
+- *"We had a cascading failure yesterday. Diagnose the anti-patterns. Use release-it skill."*
+- *"Implement a circuit breaker for this external API call. Use release-it skill."*
+- *"Design health checks for our microservices. Use release-it skill."*
+
+---
+
+### high-perf-browser
+
+Optimize web performance through network protocols, resource loading, and browser rendering internals.
+
+**About the author:** [Ilya Grigorik](https://x.com/igrigorik) is a web performance engineer, previously at Google. [*"High Performance Browser Networking"*](https://www.amazon.com/High-Performance-Browser-Networking-performance/dp/1449344763?tag=wondelai00-20) is the definitive guide to understanding network protocols and browser performance.
+
+**Use when you need to:**
+- Optimize Core Web Vitals (LCP, INP, CLS)
+- Reduce page load times and TTFB
+- Choose between HTTP/2 and HTTP/3
+- Implement effective caching strategies
+- Choose between WebSocket, SSE, and long polling for real-time features
+
+**Example prompts:**
+- *"Our LCP is 4.5 seconds. Diagnose and fix it. Use high-perf-browser skill."*
+- *"Should we use WebSocket or SSE for our real-time feature? Use high-perf-browser skill."*
+- *"Audit our caching strategy for static assets. Use high-perf-browser skill."*
+
+---
+
 ## Copyright & Disclaimer
 
 The methodologies and frameworks referenced in these skills are the intellectual property of their respective authors and publishers. All copyrights belong to:
@@ -734,6 +1066,21 @@ The methodologies and frameworks referenced in these skills are the intellectual
 - **Obviously Awesome**: April Dunford
 - **Contagious**: Jonah Berger
 - **The 1-Page Marketing Plan**: Allan Dib
+- **The Mom Test**: Rob Fitzpatrick
+- **Inspired**: Marty Cagan
+- **Lean UX**: Jeff Gothelf, Josh Seiden
+- **Continuous Discovery Habits**: Teresa Torres
+- **Microinteractions**: Dan Saffer
+- **Clean Code**: Robert C. Martin
+- **Refactoring**: Martin Fowler
+- **A Philosophy of Software Design**: John Ousterhout
+- **The Pragmatic Programmer**: Andrew Hunt, David Thomas
+- **Domain-Driven Design**: Eric Evans
+- **Designing Data-Intensive Applications**: Martin Kleppmann
+- **System Design Interview**: Alex Xu
+- **Clean Architecture**: Robert C. Martin
+- **Release It!**: Michael Nygard
+- **High Performance Browser Networking**: Ilya Grigorik
 
 These skills were created without directly copying or reproducing content from the original books or materials. They are based on:
 - Publicly available information about the methodologies
